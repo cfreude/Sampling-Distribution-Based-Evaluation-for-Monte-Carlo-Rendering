@@ -1,0 +1,14 @@
+# INIT: conda env create -f .conda.yml
+# UPDATE: conda env update --file .conda.yml --prune
+name: sdmp
+channels:
+- defaults
+dependencies:
+  - python=3
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-image
+  - scikit-learn
+  - pip:
+    - mitsuba
