@@ -40,6 +40,8 @@ For detailed command line parameters see help:
 python -m sdmp -h
 ``` 
 
+Alternatively, one can also run `visualize.py` to see the renderings and statistics updated during computation.
+
 ## Authors
 
 Christian Freude, freude (at) cg.tuwien.ac.at
